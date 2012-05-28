@@ -1,0 +1,11 @@
+body{margin:0;padding:1em;background:#fdf6e3;color:#657b83}
+b,strong{color:#586e75}
+i,em{color:#93a1a1}
+a{color:#657b83;text-decoration:none;}
+a:hover{color:#657b83}
+a:visited{color:#657b83}
+a.link{color:#b58900;}
+a.link:hover{background:#eee8d5}
+.center{text-align:center}
+.huge{font-size:10em}
+.page{margin:auto;padding:0;max-width:40em}
