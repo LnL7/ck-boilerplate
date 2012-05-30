@@ -1,0 +1,101 @@
+base03 = #002b36
+base02 = #073642
+base01 = #586e75	// text+ emphesized
+base00 = #657b83	// text default
+base0 = #839496
+base1 = #93a1a1		// text- secondary
+base2 = #eee8d5		// bg+ highlight
+base3 = #fdf6e3		// bg default
+yellow = #b58900
+orange = #cb4b16	// complement
+red = #dc322f
+magenta = #d33682
+violet = #6c71c4
+blue = #268bd2		// monotone
+cyan = #2aa198
+green = #859900
+
+
+
+body
+	margin 0
+	padding 1em
+
+	background base3
+	color base00
+
+
+b, strong, h1, h2, h3
+	color base01
+
+
+i, em, h4, h5, h6
+	color base1
+
+
+a
+	color base1
+
+	text-decoration none
+
+	&:hover
+		color base00
+
+	&:visited
+		color base1
+
+a.link
+	color yellow
+
+	&:hover
+		background base2
+
+
+img
+	max-width 100%
+
+
+.center
+	text-align center
+
+
+.left
+	float left
+
+
+.right
+	float right
+
+
+.huge
+	font-size 10em
+
+
+.wide
+	padding 0 1em
+
+
+.tall
+	padding 1em 0
+
+
+.page
+	margin auto
+	padding 0
+	max-width 30em
+
+
+.line
+	margin 0.5em 0
+	padding 0
+	height 0.5em
+
+	text-align center
+
+	border-bottom 1px solid base2
+	color base1
+
+	span
+		padding 0 0.5em
+
+		background base3
