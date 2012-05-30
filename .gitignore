@@ -1,0 +1,11 @@
+##
+# Public
+public/index.html
+public/404.html
+public/css/style.css
+public/js/main.js
+
+
+##
+# Node.js
+node_modules
