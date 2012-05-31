@@ -3,8 +3,8 @@ doctype 5
 
 # paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 comment '[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]'
-comment '[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]'
-comment '[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]'
+comment '[if lt IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]'
+comment '[if lt IE 8]><html class="no-js lt-ie9" lang="en"><![endif]'
 comment '[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]'
 
 
